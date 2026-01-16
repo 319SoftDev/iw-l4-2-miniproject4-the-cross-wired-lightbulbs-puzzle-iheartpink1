@@ -102,6 +102,18 @@ switch9.addEventListener("click", change67);
 
 const reset= () => {
     
+    switch1.checked = false
+     switch2.checked = false
+      switch3.checked = false
+       switch4.checked = false
+        switch5.checked = false
+         switch6.checked = false
+          switch7.checked = false
+           switch8.checked = false
+            switch9.checked = false
+
+             
+
     light1.classList.remove("active")
     light2.classList.remove("active")
     light3.classList.remove("active")
@@ -116,7 +128,16 @@ const reset= () => {
 switch10.addEventListener("click", reset);
 
 const master= () => {
-    
+        switch1.checked = true
+     switch2.checked = true
+      switch3.checked = true
+       switch4.checked = true
+        switch5.checked = true
+         switch6.checked = true
+          switch7.checked = true
+           switch8.checked = true
+            switch9.checked = true
+
     light1.classList.add("active")
     light2.classList.add("active")
     light3.classList.add("active")
